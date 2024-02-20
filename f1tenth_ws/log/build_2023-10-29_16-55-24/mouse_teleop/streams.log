@@ -1,0 +1,41 @@
+[6.098s] Invoking command in '/home/nx-ros2/dong_workspace/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop': PYTHONPATH=/home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/prefix_override:/home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/build install --record /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed
+[7.742s] running egg_info
+[7.751s] creating ../../../../build/mouse_teleop/mouse_teleop.egg-info
+[7.753s] writing ../../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO
+[7.754s] writing dependency_links to ../../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt
+[7.755s] writing entry points to ../../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt
+[7.756s] writing requirements to ../../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt
+[7.757s] writing top-level names to ../../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt
+[7.763s] writing manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[7.993s] reading manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[8.002s] writing manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[8.008s] running build
+[8.009s] running build_py
+[8.009s] creating /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/build
+[8.010s] creating /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/build/lib
+[8.011s] creating /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/build/lib/mouse_teleop
+[8.011s] copying mouse_teleop/__init__.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/build/lib/mouse_teleop
+[8.012s] copying mouse_teleop/mouse_teleop.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/build/lib/mouse_teleop
+[8.015s] running install
+[8.022s] running install_lib
+[8.029s] creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop
+[8.046s] copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/build/lib/mouse_teleop/__init__.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop
+[8.046s] copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/build/lib/mouse_teleop/mouse_teleop.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop
+[8.047s] byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop/__init__.py to __init__.cpython-38.pyc
+[8.054s] byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop/mouse_teleop.py to mouse_teleop.cpython-38.pyc
+[8.065s] running install_data
+[8.067s] copying package.xml -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/share/mouse_teleop
+[8.068s] creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/config
+[8.069s] copying config/mouse_teleop.yaml -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/config
+[8.094s] creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/launch
+[8.094s] copying launch/mouse_teleop.launch.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/launch
+[8.095s] creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/share/ament_index
+[8.095s] creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/share/ament_index/resource_index
+[8.096s] creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/share/ament_index/resource_index/packages
+[8.097s] copying resource/mouse_teleop -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/share/ament_index/resource_index/packages
+[8.098s] running install_egg_info
+[8.098s] Copying ../../../../build/mouse_teleop/mouse_teleop.egg-info to /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse_teleop-0.3.0-py3.8.egg-info
+[8.101s] running install_scripts
+[8.229s] Installing mouse_teleop script to /home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/lib/mouse_teleop
+[8.231s] writing list of installed files to '/home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/install.log'
+[8.382s] Invoked command in '/home/nx-ros2/dong_workspace/f1tenth_ws/src/f1tenth_system/teleop_tools/mouse_teleop' returned '0': PYTHONPATH=/home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/prefix_override:/home/nx-ros2/dong_workspace/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/build install --record /home/nx-ros2/dong_workspace/f1tenth_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed
