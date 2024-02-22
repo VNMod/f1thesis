@@ -28,7 +28,7 @@ class test_subscriber(Node):
         cv2.waitKey(1)
         
         # save the frame to the local disk:
-        image_path = os.path.join(self.output_folder, f'image_{self.image_count:04d}.jpg')
+        image_path = os.path.join(self.output_folder_path, f'image_{self.image_count:04d}.jpg')
         cv2.imwrite(image_path, current_frame)
         self.get_logger().info(f'Saved image: {image_path}')
         self.image_count += 1
