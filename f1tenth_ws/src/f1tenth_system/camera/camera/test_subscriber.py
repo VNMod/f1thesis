@@ -16,7 +16,9 @@ class test_subscriber(Node):
         # self.output_folder = './dataset/'
         self.output_folder = 'dataset'
         self.output_folder_path = os.path.abspath(self.output_folder)
-        os.makedirs(self.output_folder_path, exist_ok=True)
+        if not os.path.isdir(self.output_folder_path) :
+            os.makedirs(self.output_folder_path)  # make sure the directory exists
+
         self.get_logger().info(f'Output folder: {self.output_folder_path}')
 
     def frame_callback(self, data):
