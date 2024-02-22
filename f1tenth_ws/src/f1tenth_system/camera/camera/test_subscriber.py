@@ -13,7 +13,11 @@ class test_subscriber(Node):
         self.subscriber = self.create_subscription(Image, 'camera/image_raw', self.frame_callback, 10)
         self.bridge = CvBridge()
         self.image_count = 0
-        self.output_folder = './dataset/'
+        # self.output_folder = './dataset/'
+        self.output_folder = 'dataset'
+        self.output_folder_path = os.path.abspath(self.output_folder)
+        os.makedirs(self.output_folder_path, exist_ok=True)
+        self.get_logger().info(f'Output folder: {self.output_folder_path}')
 
     def frame_callback(self, data):
         self.get_logger().warning("Receiving RGB frame")
