@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'videocapture = camera.videocapture:main'
+            'videocapture = camera.videocapture:main', # entry point for the main function from videocapture file and camera pkg
+            'test_sub = camera.test_subscriber:main'
         ],
     },
 )
