@@ -16,7 +16,7 @@ class test_subscriber(Node):
         
     def frame_callback(self, data):
         self.get_logger().warning("Receiving RGB frame")
-        current_frame = self.bridge.imgmsg_tocv2(data)
+        current_frame = self.bridge.imgmsg_to_cv2(data)
         
         # to show each frame:
         cv2.imshow("RGB image", current_frame)
