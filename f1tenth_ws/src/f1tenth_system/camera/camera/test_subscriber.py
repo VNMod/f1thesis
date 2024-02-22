@@ -14,7 +14,9 @@ class test_subscriber(Node):
         self.bridge = CvBridge()
         self.image_count = 0
         self.output_folder = '~/varun_ws/f1tenth_ws/src/f1tenth_system/camera/camera/dataset/'
-        
+        directory = '~/varun_ws/f1tenth_ws/src/f1tenth_system/camera/camera'
+        os.chdir(directory)
+
     def frame_callback(self, data):
         self.get_logger().warning("Receiving RGB frame")
         current_frame = self.bridge.imgmsg_to_cv2(data)
@@ -22,7 +24,7 @@ class test_subscriber(Node):
         # to show each frame:
         cv2.imshow("RGB image", current_frame)
         cv2.waitKey(1)
-
+        
         # save the frame to the local disk:
         image_path = os.path.join(self.output_folder, f'image_{self.image_count:04d}.png')
         cv2.imwrite(image_path, current_frame)
