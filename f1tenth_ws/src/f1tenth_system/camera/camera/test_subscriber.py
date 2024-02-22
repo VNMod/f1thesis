@@ -10,7 +10,7 @@ import os
 class test_subscriber(Node):
     def __init__(self):
         super().__init__("test_subscriber")
-        self.publisher = self.create_publisher(Image, 'camera/image_raw', self.frame_callback, 10)
+        self.subscriber = self.create_subscription(Image, 'camera/image_raw', self.frame_callback, 10)
         self.bridge = CvBridge()
         self.image_count = 0
         
