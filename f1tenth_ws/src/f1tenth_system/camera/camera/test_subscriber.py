@@ -13,6 +13,7 @@ class test_subscriber(Node):
         self.subscriber = self.create_subscription(Image, 'camera/image_raw', self.frame_callback, 10)
         self.bridge = CvBridge()
         self.image_count = 0
+        self.output_folder = 'dataset'
         
     def frame_callback(self, data):
         self.get_logger().warning("Receiving RGB frame")
@@ -21,7 +22,7 @@ class test_subscriber(Node):
         # to show each frame:
         cv2.imshow("RGB image", current_frame)
         cv2.waitKey(1)
-        
+
         # save the frame to the local disk:
         image_path = os.path.join(self.output_folder, f'image_{self.image_count:04d}.png')
         cv2.imwrite(image_path, current_frame)
