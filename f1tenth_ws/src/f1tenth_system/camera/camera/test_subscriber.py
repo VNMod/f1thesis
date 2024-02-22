@@ -17,7 +17,7 @@ class test_subscriber(Node):
         # self.output_folder = '/home/nx-ros2/varun_ws/f1tenth_ws/dataset'
         self.output_folder_path = '/home/nx-ros2/varun_ws/f1tenth_ws/dataset'
         # self.output_folder_path = os.path.abspath(self.output_folder)
-        if not os.path.isdir(self.output_folder_path) :
+        if not os.path.isdir(self.output_folder_path):
             os.makedirs(self.output_folder_path)  # make sure the directory exists
 
         self.get_logger().info(f'Output folder: {self.output_folder_path}')
