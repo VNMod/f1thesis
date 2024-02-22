@@ -13,7 +13,7 @@ class test_subscriber(Node):
         self.subscriber = self.create_subscription(Image, 'camera/image_raw', self.frame_callback, 10)
         self.bridge = CvBridge()
         self.image_count = 0
-        self.output_folder = 'dataset'
+        self.output_folder = '~/varun_ws/f1tenth_ws/src/f1tenth_system/camera/camera/dataset'
         
     def frame_callback(self, data):
         self.get_logger().warning("Receiving RGB frame")
