@@ -56,8 +56,8 @@ class CameraNode(Node):
         color_frame = frames.get_color_frame()
         color_image = np.asanyarray(color_frame.get_data())
         
-        ros_image = self.bridge.cv2_to_imgmsg(color_image, "bgr8")
-        self.CameraNode.publish(ros_image)
+        # ros_image = self.bridge.cv2_to_imgmsg(color_image, "bgr8")
+        self.publisher.publish(self.bridge.cv2_to_imgmsg(color_image, "bgr8"))
         self.get_logger().info("Publishing the RGB image frame.")
 
     # previous function for capturing images:
