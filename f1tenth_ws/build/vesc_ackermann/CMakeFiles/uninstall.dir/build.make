@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nx-ros2/dong_workspace/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann
+CMAKE_SOURCE_DIR = /home/nx-ros2/varun_ws/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nx-ros2/dong_workspace/f1tenth_ws/build/vesc_ackermann
+CMAKE_BINARY_DIR = /home/nx-ros2/varun_ws/f1tenth_ws/build/vesc_ackermann
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/nx-ros2/dong_workspace/f1tenth_ws/build/vesc_ackermann && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nx-ros2/dong_workspace/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann /home/nx-ros2/dong_workspace/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann /home/nx-ros2/dong_workspace/f1tenth_ws/build/vesc_ackermann /home/nx-ros2/dong_workspace/f1tenth_ws/build/vesc_ackermann /home/nx-ros2/dong_workspace/f1tenth_ws/build/vesc_ackermann/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nx-ros2/varun_ws/f1tenth_ws/build/vesc_ackermann && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nx-ros2/varun_ws/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann /home/nx-ros2/varun_ws/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann /home/nx-ros2/varun_ws/f1tenth_ws/build/vesc_ackermann /home/nx-ros2/varun_ws/f1tenth_ws/build/vesc_ackermann /home/nx-ros2/varun_ws/f1tenth_ws/build/vesc_ackermann/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

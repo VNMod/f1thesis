@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nx-ros2/dong_workspace/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs
+CMAKE_SOURCE_DIR = /home/nx-ros2/varun_ws/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nx-ros2/dong_workspace/f1tenth_ws/build/vesc_msgs
+CMAKE_BINARY_DIR = /home/nx-ros2/varun_ws/f1tenth_ws/build/vesc_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nx-ros2/dong_workspace/f1tenth_ws/build/vesc_msgs/CMakeFiles /home/nx-ros2/dong_workspace/f1tenth_ws/build/vesc_msgs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nx-ros2/varun_ws/f1tenth_ws/build/vesc_msgs/CMakeFiles /home/nx-ros2/varun_ws/f1tenth_ws/build/vesc_msgs/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nx-ros2/dong_workspace/f1tenth_ws/build/vesc_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nx-ros2/varun_ws/f1tenth_ws/build/vesc_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

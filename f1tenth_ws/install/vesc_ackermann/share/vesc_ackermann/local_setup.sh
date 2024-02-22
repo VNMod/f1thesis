@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/nx-ros2/dong_workspace/f1tenth_ws/install/vesc_ackermann"}
+: ${AMENT_CURRENT_PREFIX:="/home/nx-ros2/varun_ws/f1tenth_ws/install/vesc_ackermann"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

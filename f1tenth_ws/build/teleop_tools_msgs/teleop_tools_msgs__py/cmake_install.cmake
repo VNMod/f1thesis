@@ -1,8 +1,8 @@
-# Install script for directory: /home/nx-ros2/dong_workspace/f1tenth_ws/build/teleop_tools_msgs/teleop_tools_msgs__py
+# Install script for directory: /home/nx-ros2/varun_ws/f1tenth_ws/build/teleop_tools_msgs/teleop_tools_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nx-ros2/dong_workspace/f1tenth_ws/install/teleop_tools_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/nx-ros2/varun_ws/f1tenth_ws/install/teleop_tools_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
