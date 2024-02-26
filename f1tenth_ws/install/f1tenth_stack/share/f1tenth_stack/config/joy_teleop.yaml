@@ -26,14 +26,14 @@ joy_teleop:
       type: topic
       interface_type: ackermann_msgs/msg/AckermannDriveStamped
       topic_name: teleop
-      deadman_buttons: [4]
+      deadman_buttons: [7] #[4] is Y button on XBOX & 7 is RB button.
       axis_mappings:
         drive-speed:
           axis: 1
           scale: 1.5
           offset: 0.0
         drive-steering_angle:
-          axis: 3  
+          axis: 2 # 3 is R joystick up & down, 2 should be left and right  
           scale: 0.34
           offset: 0.0
 
@@ -50,7 +50,7 @@ joy_teleop:
       type: topic
       interface_type: std_msgs/msg/Bool
       topic_name: /reset_safe_brake
-      deadman_buttons: [1]
+      deadman_buttons: [3]
       message_value:
         data:
           value: true
