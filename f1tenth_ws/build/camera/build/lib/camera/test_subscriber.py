@@ -13,7 +13,7 @@ class test_subscriber(Node):
         self.subscriber = self.create_subscription(Image, 'camera/image_raw', self.frame_callback, 10)
         self.bridge = CvBridge()
         self.image_count = 0
-        self.output_folder = 'dataset/justsqrbox'
+        self.output_folder = 'dataset/justredcups'
         self.output_folder_path = os.path.abspath(self.output_folder)
         if not os.path.isdir(self.output_folder_path):
             os.makedirs(self.output_folder_path)  # make sure the directory exists
