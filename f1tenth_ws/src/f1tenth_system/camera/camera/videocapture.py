@@ -39,10 +39,10 @@ class CameraNode(Node):
         self.bridge = CvBridge() # convert from OpenCV format to Image message type
         
         try:
-
+            #print('this works')
             self.pipe = rs.pipeline()
             self.config = rs.config()
-            # streaming 640 x 480
+            # streaming 640 x 480, (no now we're streaming 320, 320)
             self.config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
             self.pipe.start(self.config)
             self.timer = self.create_timer(timer_period, self.timer_callback)
