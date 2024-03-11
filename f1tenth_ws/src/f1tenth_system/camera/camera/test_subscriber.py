@@ -24,15 +24,31 @@ class test_subscriber(Node):
         self.get_logger().warning("Receiving RGB frame")
         current_frame = self.bridge.imgmsg_to_cv2(data)
         
+        # # to show each frame:
+        # cv2.imshow("RGB image", current_frame)
+        # cv2.waitKey(1)
+        
+        # # save the frame to the local disk:
+        # image_path = os.path.join(self.output_folder_path, f'image_{self.image_count:04d}.jpg')
+        # cv2.imwrite(image_path, current_frame)
+        # self.get_logger().info(f'Saved image: {image_path}')
+        # self.image_count += 1
+
         # to show each frame:
         cv2.imshow("RGB image", current_frame)
-        cv2.waitKey(1)
+        key = cv2.waitKey(0)  # Wait indefinitely for a key press
+
+        if key == ord('s'):  # Save the image if the key pressed is 's'
+            # save the frame to the local disk:
+            image_path = os.path.join(self.output_folder_path, f'image_{self.image_count:04d}.jpg')
+            cv2.imwrite(image_path, current_frame)
+            self.get_logger().info(f'Saved image: {image_path}')
+            self.image_count += 1
+        elif key == ord('q'):  # Quit if the key pressed is 'q'
+            cv2.destroyAllWindows()
+
+
         
-        # save the frame to the local disk:
-        image_path = os.path.join(self.output_folder_path, f'image_{self.image_count:04d}.jpg')
-        cv2.imwrite(image_path, current_frame)
-        self.get_logger().info(f'Saved image: {image_path}')
-        self.image_count += 1
         
         
 def main(args=None):
