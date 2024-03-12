@@ -10,16 +10,19 @@ import os
 class test_subscriber(Node):
     def __init__(self):
         super().__init__("test_subscriber")
-        self.subscriber = self.create_subscription(Image, 'camera/image_raw', self.frame_callback, 10)
-        self.bridge = CvBridge()
-        self.image_count = 0
-        self.output_folder = 'dataset/score1'
+        
+        self.output_folder = os.path.join('dataset/', input("Enter the folder name: "))
+
         self.output_folder_path = os.path.abspath(self.output_folder)
         self.save_flag = False
         if not os.path.isdir(self.output_folder_path):
             os.makedirs(self.output_folder_path)  # make sure the directory exists
 
         self.get_logger().info(f'Output folder: {self.output_folder_path}')
+
+        self.image_count = int(input("Enter the starting image count: "))
+        self.subscriber = self.create_subscription(Image, 'camera/image_raw', self.frame_callback, 10)
+        self.bridge = CvBridge()
 
     def frame_callback(self, data):
         self.get_logger().warning("Receiving RGB frame")
