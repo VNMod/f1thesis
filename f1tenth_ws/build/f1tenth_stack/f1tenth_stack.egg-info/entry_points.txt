@@ -1,8 +1,0 @@
-[console_scripts]
-pure_pursuit = f1tenth_stack.auto.pure_pursuit:main
-reset_safe_brake = f1tenth_stack.auto.reset_safe_brake:main
-tf_publisher = f1tenth_stack.tf_publisher:main
-throttle_interpolator = f1tenth_stack.throttle_interpolator:main
-wall_follower = f1tenth_stack.auto.wall_follow:main
-wall_follower_nosafe = f1tenth_stack.auto.wall_follow_nosafebrake:main
-
