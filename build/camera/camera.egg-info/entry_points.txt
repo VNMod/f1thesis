@@ -1,0 +1,4 @@
+[console_scripts]
+test_sub = camera.test_subscriber:main
+videocapture = camera.videocapture:main
+

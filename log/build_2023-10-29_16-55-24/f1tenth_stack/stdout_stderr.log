@@ -1,0 +1,68 @@
+running egg_info
+creating ../../../build/f1tenth_stack/f1tenth_stack.egg-info
+writing ../../../build/f1tenth_stack/f1tenth_stack.egg-info/PKG-INFO
+writing dependency_links to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/dependency_links.txt
+writing entry points to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/entry_points.txt
+writing requirements to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/requires.txt
+writing top-level names to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/top_level.txt
+writing manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+reading manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+writing manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+copying f1tenth_stack/throttle_interpolator.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+copying f1tenth_stack/__init__.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+copying f1tenth_stack/tf_publisher.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto
+copying f1tenth_stack/auto/pure_pursuit.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto
+copying f1tenth_stack/auto/wall_follow.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto
+copying f1tenth_stack/auto/reset_safe_brake.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto
+copying f1tenth_stack/auto/__init__.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto
+copying f1tenth_stack/auto/wall_follow_nosafebrake.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto
+running install
+running install_lib
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto
+copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto/pure_pursuit.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto
+copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto/wall_follow.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto
+copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto/reset_safe_brake.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto
+copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto/__init__.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto
+copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/auto/wall_follow_nosafebrake.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto
+copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/throttle_interpolator.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/__init__.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+copying /home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/tf_publisher.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto/pure_pursuit.py to pure_pursuit.cpython-38.pyc
+byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto/wall_follow.py to wall_follow.cpython-38.pyc
+byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto/reset_safe_brake.py to reset_safe_brake.cpython-38.pyc
+byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/auto/wall_follow_nosafebrake.py to wall_follow_nosafebrake.cpython-38.pyc
+byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/throttle_interpolator.py to throttle_interpolator.cpython-38.pyc
+byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/tf_publisher.py to tf_publisher.cpython-38.pyc
+running install_data
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/ament_index
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+copying resource/f1tenth_stack -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+copying package.xml -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+copying launch/bringup_launch.py -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+creating /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/sensors.yaml -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/mux.yaml -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/f1tenth_online_async.yaml -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/joy_teleop.yaml -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+copying config/vesc.yaml -> /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+running install_egg_info
+Copying ../../../build/f1tenth_stack/f1tenth_stack.egg-info to /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack-0.0.1-py3.8.egg-info
+running install_scripts
+Installing pure_pursuit script to /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing reset_safe_brake script to /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing tf_publisher script to /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing throttle_interpolator script to /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing wall_follower script to /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing wall_follower_nosafe script to /home/nx-ros2/dong_workspace/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+writing list of installed files to '/home/nx-ros2/dong_workspace/f1tenth_ws/build/f1tenth_stack/install.log'
