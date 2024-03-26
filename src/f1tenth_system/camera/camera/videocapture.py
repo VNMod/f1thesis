@@ -35,7 +35,7 @@ class CameraNode(Node):
         self.publisher = self.create_publisher(Image, 'camera/image_raw', 10)
         
         # runs code every 2 seconds, I could try (0.05 for smoother frames like a video)
-        timer_period = 2
+        timer_period = 0.5
         self.bridge = CvBridge() # convert from OpenCV format to Image message type
         
         try:
