@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'videocapture = camera.videocapture:main', # entry point for the main function from videocapture file and camera pkg
-            'test_sub = camera.test_subscriber:main'
+            'testsub = camera.test_subscriber:main'
         ],
     },
 )

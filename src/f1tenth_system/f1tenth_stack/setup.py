@@ -31,6 +31,7 @@ setup(
 			'wall_follower_nosafe = f1tenth_stack.auto.wall_follow_nosafebrake:main',
 			'reset_safe_brake = f1tenth_stack.auto.reset_safe_brake:main',
             'pure_pursuit = f1tenth_stack.auto.pure_pursuit:main',
+            'ftg = f1tenth_stack.auto.follow_the_gap:main',
         ],
     },
 )
