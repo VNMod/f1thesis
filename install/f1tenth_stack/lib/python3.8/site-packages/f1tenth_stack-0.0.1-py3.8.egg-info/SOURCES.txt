@@ -17,6 +17,7 @@ f1tenth_stack/__init__.py
 f1tenth_stack/tf_publisher.py
 f1tenth_stack/throttle_interpolator.py
 f1tenth_stack/auto/__init__.py
+f1tenth_stack/auto/follow_the_gap.py
 f1tenth_stack/auto/pure_pursuit.py
 f1tenth_stack/auto/reset_safe_brake.py
 f1tenth_stack/auto/wall_follow.py
