@@ -1,4 +1,5 @@
 [console_scripts]
+ftg = f1tenth_stack.auto.follow_the_gap:main
 pure_pursuit = f1tenth_stack.auto.pure_pursuit:main
 reset_safe_brake = f1tenth_stack.auto.reset_safe_brake:main
 tf_publisher = f1tenth_stack.tf_publisher:main

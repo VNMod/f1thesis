@@ -29,14 +29,17 @@ class test_subscriber(Node):
         self.get_logger().warning("Receiving RGB frame")
         current_frame = self.bridge.imgmsg_to_cv2(data)
 
-        # save the frame to the local disk:
-        image_path = os.path.join(self.output_folder_path, f'image_{self.image_count:05d}.jpg')
-        cv2.imwrite(image_path, current_frame)
-        self.get_logger().info(f'Saved image: {image_path}')
-        self.image_count += 1
-        
-        # to show each frame:
-        cv2.imshow("RGB image", current_frame)
+        if self.image_count < 30:
+            # save the frame to the local disk:
+            image_path = os.path.join(self.output_folder_path, f'image_{self.image_count:05d}.jpg')
+            cv2.imwrite(image_path, current_frame)
+            self.get_logger().info(f'Saved image: {image_path}')
+            self.image_count += 1
+
+            # to show each frame:
+            cv2.imshow("RGB image", current_frame)
+        else:
+            self.get_logger().info("Image count reached 30. Stopping frame saving.")
         
         # if self.save_flag:
         #     # save the frame to the local disk:
