@@ -12,7 +12,7 @@ class test_subscriber(Node):
         super().__init__("test_subscriber")
         
         # self.output_folder = os.path.join('dataset/', input("Enter the folder name: "))
-        self.output_folder = os.path.join('dataset/exp1/', input("Enter the folder name: "))
+        self.output_folder = os.path.join('dataset/exp3/', input("Enter the folder name: "))
 
         self.output_folder_path = os.path.abspath(self.output_folder)
         self.save_flag = False
