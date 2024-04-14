@@ -332,11 +332,11 @@ class WallFollow(Node):
                 self.software_drive_pub.publish(SAFE_BRAKE_MSG)
                 self.get_logger().info("Safe brake activated.")
             else:
-                pure_pursuit_msg = self.pure_pursuit(data)
-                self.software_drive_pub.publish(pure_pursuit_msg)
+                ftg_msg = self.follow_the_gap(data)
+                self.software_drive_pub.publish(ftg_msg)
         else:
-            pure_pursuit_msg = self.pure_pursuit(data)
-            self.software_drive_pub.publish(pure_pursuit_msg)
+            ftg_msg = self.follow_the_gap(data)
+            self.software_drive_pub.publish(ftg_msg)
 
     def vesc_drive_callback(self, data):
         """vesc drive callback function
